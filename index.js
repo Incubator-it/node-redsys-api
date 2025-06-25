@@ -1,1 +1,1 @@
-module.exports = require('./src/api-redsys');
+module.exports = require("./src/api-redsys");

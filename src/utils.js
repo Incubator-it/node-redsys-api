@@ -1,5 +1,5 @@
 function zeroPad(buf, blocksize) {
-  const buffer = typeof buf === 'string' ? Buffer.from(buf, 'utf8') : buf;
+  const buffer = typeof buf === "string" ? Buffer.from(buf, "utf8") : buf;
   const pad = Buffer.alloc((blocksize - (buffer.length % blocksize)) % blocksize, 0);
   return Buffer.concat([buffer, pad]);
 }
@@ -12,7 +12,7 @@ function zeroUnpad(buf, blocksize) {
       break;
     }
   }
-  return buf.slice(0, lastIndex + 1).toString('utf8');
+  return buf.slice(0, lastIndex + 1).toString("utf8");
 }
 
 module.exports = {
