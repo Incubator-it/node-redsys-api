@@ -1,5 +1,5 @@
 {
-  "name": "@incubator/node-redsys-api",
+  "name": "@incubatorit/node-redsys-api",
   "version": "0.0.1",
   "dependencies": {
     "base64url": "3.0.1"
@@ -17,8 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/incubator-it/node-redsys-api"
+    "url": "https://github.com/Incubator-it/node-redsys-api.git"
   },
+  "bugs": {
+    "url": "https://github.com/Incubator-it/node-redsys-api/issues"
+  },
+  "homepage": "https://github.com/Incubator-it/node-redsys-api",
   "keywords": [
     "tpv",
     "redsys",
@@ -35,9 +39,5 @@
     "security": "npm audit"
   },
   "author": "Santi Pérez",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/incubator-it/node-redsys-api/issues"
-  },
-  "homepage": "https://github.com/incubator-it/node-redsys-api"
+  "license": "MIT"
 }
