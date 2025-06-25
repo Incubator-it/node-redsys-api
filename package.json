@@ -1,6 +1,6 @@
 {
-  "name": "node-redsys-api",
-  "version": "0.0.5",
+  "name": "@incubator/node-redsys-api",
+  "version": "0.0.1",
   "dependencies": {
     "base64url": "3.0.1"
   },
@@ -11,8 +11,7 @@
     "eslint-config-prettier": "6.11.0",
     "eslint-plugin-import": "2.23.4",
     "eslint-plugin-prettier": "3.4.0",
-    "mocha": "8.4.0",
-    "pre-commit": "1.2.2",
+    "mocha": "^11.7.1",
     "prettier": "2.3.1",
     "rewire": "5.0.0"
   },
@@ -40,9 +39,5 @@
   "bugs": {
     "url": "https://github.com/santiperez/node-redsys-api/issues"
   },
-  "homepage": "https://github.com/santiperez/node-redsys-api",
-  "precommit": [
-    "test",
-    "security"
-  ]
+  "homepage": "https://github.com/santiperez/node-redsys-api"
 }
